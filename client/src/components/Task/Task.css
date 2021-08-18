@@ -1,0 +1,113 @@
+.tasks-container {
+  background-color: #1b212b;
+  border-radius: 5px 5px 5px 0px;
+  color: white;
+}
+.task {
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 50px 5fr 50px 1fr 50px 50px;
+  grid-template-rows: minmax(2.5rem, auto) auto;
+  overflow-wrap: anywhere;
+}
+.task > * {
+  align-self: center;
+  justify-self: center;
+  margin: 0;
+}
+.task h4 {
+  justify-self: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+.task h5 {
+  margin: 0 5px;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+.task-description p {
+  margin: 0;
+}
+.task-button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.task-description {
+  background-color: #393e46;
+  border-radius: 5px;
+  grid-column-start: 1;
+  grid-column-end: 7;
+  min-height: 2rem;
+  width: 100%;
+  padding: 1rem 1rem;
+  text-align: justify;
+  box-sizing: border-box;
+  overflow-wrap: anywhere;
+}
+.add-task {
+  background-color: #222831;
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  grid-template-rows: 2.2rem;
+  width: 10rem;
+  border-radius: 0px 0px 5px 5px;
+}
+
+.add-task > * {
+  align-self: center;
+  justify-self: center;
+}
+.add-task > *:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.add-task h5 {
+  justify-self: left;
+  color: white;
+}
+.config-tasks {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.dark-separator-line {
+  border: none;
+  border-top: 2px solid #393e46;
+  margin: 0 auto;
+  width: 100%;
+  height: 0;
+}
+.task-team-name {
+  grid-column: 3/4;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  height: 1rem;
+  width: 100%;
+  margin-right: 10px;
+}
+@media only screen and (max-width: 700px) {
+  .task h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+  .task h5 {
+    font-size: 0.65rem;
+    font-weight: 500;
+  }
+  .add-task h5 {
+    justify-self: left;
+    color: white;
+  }
+  .task p {
+    font-size: 0.8rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .config-tasks {
+    background-color: #222831;
+    border-radius: 5px;
+  }
+}

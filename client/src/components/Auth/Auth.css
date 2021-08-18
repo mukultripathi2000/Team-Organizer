@@ -1,0 +1,82 @@
+/* Sign up  */
+.content-container {
+  min-height: calc(100vh - 174px);
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  margin: auto;
+  margin-top: 4%;
+  max-width: 350px;
+  min-width: 250px;
+  border: 0px solid #393e46;
+  border-radius: 15px;
+  padding: 2rem 2.5rem 2.5rem 2.5rem;
+  background-color: #eeeeee;
+}
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+}
+.form h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin: 1rem;
+}
+.form h3 {
+  text-align: center;
+}
+.form input {
+  box-sizing: border-box;
+  width: 100%;
+  height: 2rem;
+}
+.form input[type='checkbox'] {
+  display: inline-block;
+  width: 20px;
+  margin-left: 10px;
+  position: relative;
+  top: 10px;
+}
+.blue-submit-button {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 2.5rem;
+  background-color: #00adb5;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 1.2rem;
+}
+.blue-submit-button:hover {
+  opacity: 0.8;
+}
+.form button:hover {
+  cursor: pointer;
+}
+.form textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: 4rem;
+  resize: none;
+}
+/* Join page  */
+.join {
+  text-align: center;
+  text-decoration: none;
+}
+
+.red-submit-button {
+  display: block;
+  text-align: center;
+  margin: auto;
+  margin-top: 1.5rem;
+  width: 100%;
+  height: 2.5rem;
+  font-size: 1.2rem;
+}

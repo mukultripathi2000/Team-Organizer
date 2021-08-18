@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  cursor: default;
+}
+h1 {
+  font-family: 'BioRhyme', serif;
+  font-weight: 700;
+}
+h2 {
+  font-weight: 600;
+}
+h3 {
+  font-weight: 600;
+}
+h4 {
+  font-weight: 500;
+}
+h5 {
+  font-weight: 500;
+}
+p {
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.material-ui-link {
+  text-decoration: none;
+}
+.red-icon {
+  color: #e84545;
+}
+.blue-icon {
+  color: #3b43d6;
+}

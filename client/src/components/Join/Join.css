@@ -1,0 +1,29 @@
+.header-join {
+    background-color: #1979a9;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: minmax(50%, auto) minmax(100px, 120px) minmax(
+            100px,
+            120px
+        );
+    grid-template-rows: 60px;
+    margin: 0;
+}
+.header-join > * {
+    align-self: center;
+    justify-self: center;
+    margin: 0;
+}
+
+.div1 {
+    background-color: #eeeeee;
+}
+.div2 {
+    background-color: white;
+}
+@media only screen and (max-width: 700px) {
+    .header-join {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 50px 50px;
+    }
+}

@@ -1,0 +1,38 @@
+.profile {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+}
+.profile h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+.profile-pic {
+  text-align: center;
+  font-size: 5rem;
+}
+.logout-button {
+  background-color: #1979a9;
+  border: none;
+  color: white;
+  min-width: 100px;
+  width: 20%;
+  height: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  margin: 1rem auto;
+}
+.profile-title {
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  align-items: center;
+}
+.profile-edit-button {
+  position: absolute;
+  right: -30px;
+  opacity: 0.5;
+}
