@@ -10,8 +10,8 @@ Team Organzier is an organizer that allows you to keep all your tasks from diffe
 - Manage and organize your team's tasks and members
 - Create your own team
 - Join a new team using their teamID
-- Add members to team directly using thier userID
-- Only admins can add task to thier team members
+- Add members to team directly using their userID
+- Only admins can add task to their team members
 
 ## Built with
 - Front-end - [React.js](https://reactjs.org/)
